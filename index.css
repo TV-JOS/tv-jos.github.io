@@ -9,7 +9,7 @@ a {
     background-color: #101010;
     height: 20vh;
     width: 100vw;
-    margin: 1vh 0;
+    margin: 2vh 0;
     font-size: 20vh;
     text-decoration: none;
     color: white;
@@ -26,6 +26,27 @@ h2 {
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 220%;
+    top: 238%;
     padding: 0;
+}
+
+.aberta {
+    background: linear-gradient(to bottom, rgb(255,150,100) 55%, rgb(255,100,100) 45%);
+    text-shadow: 4px 4px 0px black;
+}
+
+.espn {
+    background: red;
+    text-shadow: 4px 4px 0px black;
+    outline: 3px solid white;
+}
+
+.sport {
+    background: linear-gradient(to right, blue 70%, red 30%);
+    text-shadow: 4px 4px 0px black;
+}
+
+.premiere {
+    background: linear-gradient(to bottom, green 55%, white 45%);
+    text-shadow: 4px 4px 0px black;
 }
