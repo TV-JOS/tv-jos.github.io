@@ -25,21 +25,22 @@ h2 {
 
 #canais {
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
     left: 50%;
-    top: 265%;
+    top: 0;
     padding: 0;
 }
 
+
 .aberta {
-    background: linear-gradient(to bottom, rgb(255,150,100) 55%, rgb(255,100,100) 45%);
+    background: linear-gradient(to bottom, rgb(100,150,100) 55%, rgb(100,130,100) 45%);
     text-shadow: 4px 4px 0px black;
 }
 
 .espn {
     background: red;
     text-shadow: 4px 4px 0px black;
-    outline: 3px solid white;
+    outline: 2px solid white;
 }
 
 .sport {
