@@ -1,6 +1,5 @@
-const onPause = () => {
-    window.location.href = 'index.html'
+const onBeforeUnload = () => {
+    window.location.href = 'index.html';
 }
 
-window.addEventListener("pause", onPause, false);
-
+window.addEventListener("beforeunload", onBeforeUnload, false);
