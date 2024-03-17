@@ -1,0 +1,31 @@
+body {
+    background-color: #121212;
+    font-family: sans-serif;
+    overflow-x: auto;
+}
+
+a {
+    float: left;
+    background-color: #101010;
+    height: 20vh;
+    width: 100vw;
+    margin: 1vh 0;
+    font-size: 20vh;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0 0vw;
+}
+
+h2 {
+    font-size: 15vw;
+    margin-top: 2vh;
+}
+
+#canais {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 220%;
+    padding: 0;
+}
