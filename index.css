@@ -7,6 +7,18 @@ body {
     left: 20%;
 }
 
+#version {
+    user-select: none;
+}
+
+.version-title {
+    color: white;
+    font-size: 2vh;
+    position: absolute;
+    top: 0.3vh;
+    left: -9.5vh;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +55,7 @@ h2 {
     transform: translateX(-50%);
     transform: translateZ(-50%);
     left: 30%;
-    top: 0;
+    top: 1vh;
     padding: 0;
 }
 
@@ -55,7 +67,7 @@ h2 {
 .espn {
     background: red;
     text-shadow: 4px 4px 0px black;
-    outline: 2px solid white;
+    outline: 4px solid white;
 }
 
 .sport {
