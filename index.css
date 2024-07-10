@@ -16,7 +16,7 @@ body {
     font-size: 2vh;
     position: absolute;
     top: 0.3vh;
-    left: -9.5vh;
+    left: -9vh;
 }
 
 * {
@@ -28,7 +28,7 @@ a {
     float: left;
     background-color: #101010;
     height: 20vh;
-    width: 100vw; /* Full width for both portrait and landscape mode */
+    width: 100vw;
     margin: 2vh 0;
     font-size: 20vh;
     text-decoration: none;
@@ -40,8 +40,8 @@ a {
 
 @media screen and (orientation: landscape) {
     a {
-        width: calc(50% - 4vw); /* Adjusted width for landscape mode */
-        margin: 2vh 2vw; /* Adjusted margin for landscape mode */
+        width: calc(50% - 4vw);
+        margin: 2vh 2vw; 
     }
 }
 
