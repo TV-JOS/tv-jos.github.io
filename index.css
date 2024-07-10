@@ -79,3 +79,14 @@ h2 {
     background: linear-gradient(to bottom, green 55%, white 45%);
     text-shadow: 4px 4px 0px black;
 }
+
+.bandsports {
+    background: linear-gradient(to bottom, rgb(36, 36, 36) 55%, black 45%);
+    text-shadow: 4px 4px 0px black;
+}
+
+.foxsports {
+    background: linear-gradient(to bottom, rgba(148,168,201,255) 55%, rgba(112,138,169,255) 45%);
+    text-shadow: 4px 4px 0px black;
+    color: rgb(4,51,127);
+}
