@@ -1,3 +1,28 @@
+@font-face {
+    font-family: espnFont;
+    src: url(fonts/espn.ttf);
+}
+
+@font-face {
+    font-family: premiereFont;
+    src: url(fonts/premiere.otf);
+}
+
+@font-face {
+    font-family: sportvFont;
+    src: url(fonts/sportv.otf);
+}
+
+@font-face {
+    font-family: foxsportsFont;
+    src: url(fonts/foxsports.otf);
+}
+
+@font-face {
+    font-family: maxFont;
+    src: url(fonts/max.ttf);
+}
+
 body {
     position: absolute;
     background-color: #121212;
@@ -64,29 +89,91 @@ h2 {
     text-shadow: 4px 4px 0px black;
 }
 
+.sbt img {
+    width: 18vh;
+}
+.sbt {
+    background: linear-gradient(to right,#a45682,#f7b36d);
+}
+
+.record img {
+    width: 21vh;
+}
+.record {
+    background: linear-gradient(to right,#0154b6,#6296f0);
+}
+
+.band img {
+    width: 28vh;
+}
+.band {
+    background: linear-gradient(to right,#c027ac,#6d0e0d);
+}
+
+.globo img {
+    width: 36vh;
+}
+.globo {
+    background: linear-gradient(to right,#bade12,#018693);
+}
+
+.tve img {
+    width: 36vh;
+    margin: -72.5px;
+}
+.tve {
+    background: linear-gradient(to right,#60dba2,#0cbdd7);
+}
+
 .espn {
     background: red;
-    text-shadow: 4px 4px 0px black;
     outline: 4px solid white;
+    font-family: espnFont;
+}
+.espn h2 {
+    margin-top: 40px;
 }
 
 .sport {
     background: linear-gradient(to right, blue 70%, red 30%);
-    text-shadow: 4px 4px 0px black;
+    font-family: sportvFont;
 }
 
 .premiere {
     background: linear-gradient(to bottom, green 55%, white 45%);
-    text-shadow: 4px 4px 0px black;
+    font-family: premiereFont;
 }
 
 .bandsports {
-    background: linear-gradient(to bottom, rgb(36, 36, 36) 55%, black 45%);
-    text-shadow: 4px 4px 0px black;
+    background: linear-gradient(to bottom, rgb(36, 36, 36) 50%, black 50%);
+    font-family: sportvFont;
+}
+.bandsports h2 {
+    font-size: 9vh;
+    line-height: 80px;
 }
 
 .foxsports {
-    background: linear-gradient(to bottom, rgba(148,168,201,255) 55%, rgba(112,138,169,255) 45%);
-    text-shadow: 4px 4px 0px black;
+    background: linear-gradient(to bottom, rgba(148,168,201,255) 50%, rgba(112,138,169,255) 50%);
     color: rgb(4,51,127);
+    font-family: foxsportsFont;
+}
+.foxsports h2 {
+    font-size: 7vh;
+    line-height: 80px;
+    margin-top: 25px;
+}
+
+.max {
+    background-color: #0223f7;
+    font-family: maxFont;
+    color: white;
+    font-size: 16vh !important;
+}
+.max h2 {
+    font-size: 14vh;
+}
+
+.cazetv {
+    background-color: white;
 }
