@@ -143,6 +143,11 @@ h2 {
     background: linear-gradient(to bottom, green 55%, white 45%);
     font-family: premiereFont;
 }
+.premiere h2 {
+    margin-top: 10px;
+    font-size: 5vh;
+    line-height: 90px;
+}
 
 .bandsports {
     background: linear-gradient(to bottom, rgb(36, 36, 36) 50%, black 50%);
